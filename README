@@ -4,6 +4,11 @@ using the DokuWiki-Plugin OpenLayersMap (http://www.dokuwiki.org/plugin:openlaye
  * dynmap.py - just creates the data for current state.
  * dynmap-callback.py - Runs continuously and generates the OpenLayersMap Data whenever someone connects/disconnects.
 
+Features:
+ * Show all or only online user. (Change dynmap.makemap(...) call in dynmap-callback.py)
+ * Show avatar
+ * Show online time
+
 ## DATABASE ##
 dynmap.py uses a SQLite Database:
   CREATE TABLE dynmap (
