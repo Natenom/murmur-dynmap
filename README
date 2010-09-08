@@ -14,4 +14,6 @@ dynmap.py uses a SQLite Database:
                        CONSTRAINT dynmap_PK PRIMARY KEY (userid)
   );
 
+You can use the included database dynmap.sqlite for testing.
+
 Poject Website: http://wiki.natenom.name/mumble/tools/benutzerkarte
