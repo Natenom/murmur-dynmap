@@ -1,0 +1,7 @@
+Creates the Data for a dynamic map of online/offline users of a Mumble-Server (Murmur)
+using the DokuWiki-Plugin OpenLayersMap (http://www.dokuwiki.org/plugin:openlayersmap).
+
+ * dynmap.py - just creates the data for current state.
+ * dynmap-callback.py - Runs continuously and generates the OpenLayersMap Data whenever someone connects/disconnects.
+
+Poject Website: http://wiki.natenom.name/mumble/tools/benutzerkarte
