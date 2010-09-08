@@ -4,4 +4,14 @@ using the DokuWiki-Plugin OpenLayersMap (http://www.dokuwiki.org/plugin:openlaye
  * dynmap.py - just creates the data for current state.
  * dynmap-callback.py - Runs continuously and generates the OpenLayersMap Data whenever someone connects/disconnects.
 
+## DATABASE ##
+dynmap.py uses a SQLite Database:
+  CREATE TABLE dynmap (
+                       userid integer NOT NULL,
+                       name VARCHAR(50) NOT NULL,
+                       lat VARCHAR(8) NOT NULL,
+                       lon VARCHAR(8) NOT NULL,
+                       CONSTRAINT dynmap_PK PRIMARY KEY (userid)
+  );
+
 Poject Website: http://wiki.natenom.name/mumble/tools/benutzerkarte
